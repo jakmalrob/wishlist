@@ -7,13 +7,18 @@
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.11.0",
-    "mongoose": "^8.8.3"
+    "mongoose": "^8.8.3",
+    "react": "^18.x.x",
+    "react-dom": "^18.x.x",
+    "react-scripts": "^5.0.1"
   },
   "name": "wishlist-enhanced-wishlist-details",
   "version": "1.0.0",
   "main": "wishlist.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
