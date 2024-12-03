@@ -10,6 +10,7 @@
     "mongoose": "^8.8.3",
     "react": "^18.x.x",
     "react-dom": "^18.x.x",
+    "react-router-dom": "^7.0.2",
     "react-scripts": "^5.0.1"
   },
   "name": "wishlist-enhanced-wishlist-details",
