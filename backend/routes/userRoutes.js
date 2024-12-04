@@ -3,6 +3,11 @@ const router = express.Router();
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
+// Add this near the top of your routes
+router.get('/', (req, res) => {
+  res.json({ message: 'Welcome to the Wishlist API' });
+});
+
 // Register new user
 router.post('/register', async (req, res) => {
   try {
